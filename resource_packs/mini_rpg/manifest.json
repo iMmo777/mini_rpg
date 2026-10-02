@@ -19,5 +19,10 @@
       "uuid": "bbfe4c4e-fee6-47bf-b527-70766951a27b",
       "version": [1, 0, 0]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": ["Rizal Efendy"],
+    "license": "MIT",
+    "url": "https://github.com/iMmo777/mini_rpg"
+  }
 }

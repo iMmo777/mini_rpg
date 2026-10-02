@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "productName": "Mini RPG",
   "description": "Mini RPG Bedrock add-on",
+  "author": "Rizal Efendy",
+  "license": "MIT",
+  "repository": "github:iMmo777/mini_rpg",
   "private": true,
   "devDependencies": {
     "@minecraft/core-build-tasks": "^5.5.0",

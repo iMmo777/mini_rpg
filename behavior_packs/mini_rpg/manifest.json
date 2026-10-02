@@ -34,5 +34,10 @@
       "module_name": "@minecraft/server-ui",
       "version": "2.2.0"
     }
-  ]
+  ],
+  "metadata": {
+    "authors": ["Rizal Efendy"],
+    "license": "MIT",
+    "url": "https://github.com/iMmo777/mini_rpg"
+  }
 }

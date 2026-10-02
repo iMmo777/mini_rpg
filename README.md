@@ -220,3 +220,7 @@ The tests check that every locale has the same keys as `en_US.lang`.
 - Resetting a quest doesn't take back XP, coins or items already given.
 - Any player holding the item can reset their own quests; there is no permission check.
 - To ship without it, remove `scripts/items/questReset.ts`, `behavior_packs/mini_rpg/items/quest_reset.json` and `registerQuestResetItem()` in `main.ts`.
+
+## License
+
+[MIT](LICENSE) © 2026 Rizal Efendy. The build setup and pack icons come from Microsoft's [minecraft-scripting-samples](https://github.com/microsoft/minecraft-scripting-samples) (MIT). Not affiliated with Mojang or Microsoft.
