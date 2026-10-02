@@ -1,4 +1,10 @@
+<img src="resource_packs/mini_rpg/pack_icon.png" alt="Mini RPG icon" width="96" align="right">
+
 # Mini RPG — Minecraft Bedrock Add-On
+
+[![CI](https://github.com/iMmo777/mini_rpg/actions/workflows/ci.yml/badge.svg)](https://github.com/iMmo777/mini_rpg/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/iMmo777/mini_rpg)](https://github.com/iMmo777/mini_rpg/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A small RPG layer for Minecraft: Bedrock Edition, built with the Script API (TypeScript) and native NPC dialogue: quest NPCs, kill and collect quests, XP and levels, coins, a shop and a quest journal. All of it is saved per player and works in multiplayer.
 
@@ -223,4 +229,4 @@ The tests check that every locale has the same keys as `en_US.lang`.
 
 ## License
 
-[MIT](LICENSE) © 2026 Rizal Efendy. The build setup and pack icons come from Microsoft's [minecraft-scripting-samples](https://github.com/microsoft/minecraft-scripting-samples) (MIT). Not affiliated with Mojang or Microsoft.
+[MIT](LICENSE) © 2026 Rizal Efendy. The build setup comes from Microsoft's [minecraft-scripting-samples](https://github.com/microsoft/minecraft-scripting-samples) (MIT). Not affiliated with Mojang or Microsoft.

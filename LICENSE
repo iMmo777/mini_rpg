@@ -24,9 +24,9 @@ SOFTWARE.
 
 Third-party notice
 
-The build setup (just.config.ts, eslint.config.mjs, .vscode/) and the pack
-icons (pack_icon.png) come from microsoft/minecraft-scripting-samples
-(ts-starter), licensed under the MIT License:
+The build setup (just.config.ts, eslint.config.mjs, .vscode/) comes from
+microsoft/minecraft-scripting-samples (ts-starter), licensed under the MIT
+License:
 
   Copyright (c) Microsoft Corporation.
 
