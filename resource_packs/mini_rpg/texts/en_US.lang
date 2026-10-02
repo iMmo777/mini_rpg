@@ -1,0 +1,88 @@
+pack.name=Mini RPG RP
+pack.description=Mini RPG resource pack
+
+## Entities and items
+entity.mini_rpg:npc1.name=Ardan the Guard
+item.spawn_egg.entity.mini_rpg:npc1.name=Spawn Ardan the Guard
+entity.mini_rpg:npc2.name=Mira the Hunter
+item.spawn_egg.entity.mini_rpg:npc2.name=Spawn Mira the Hunter
+entity.mini_rpg:merchant.name=Bram the Merchant
+item.spawn_egg.entity.mini_rpg:merchant.name=Spawn Bram the Merchant
+item.mini_rpg:quest_journal.name=Quest Journal
+item.mini_rpg:quest_reset.name=Quest Reset Book
+action.interact.mini_rpg.trade=Trade
+
+## Quests
+mini_rpg.quest.zombie_hunt.title=Zombie Hunter
+mini_rpg.quest.zombie_hunt.description=Kill 5 zombies roaming around the village.
+mini_rpg.quest.skeleton_patrol.title=Skeleton Patrol
+mini_rpg.quest.skeleton_patrol.description=Kill 3 skeletons lurking near the forest.
+mini_rpg.quest.bone_collector.title=Bone Collector
+mini_rpg.quest.bone_collector.description=Bring Mira 6 bones for her arrows.
+
+## Chat messages (%s = quest title, then description / NPC name / rewards)
+mini_rpg.msg.accepted=§e[Quest]§r %s accepted: %s
+mini_rpg.msg.ready=§e[Quest]§r %s: Objective complete! Report back to %s.
+mini_rpg.msg.completed=§a[Quest]§r %s: Quest complete! Rewards: %s
+mini_rpg.msg.reset=§e[Quest]§r %s has been reset.
+mini_rpg.msg.profile_reset=§e[Quest]§r XP and coins have been reset.
+
+## Titles and actionbar
+mini_rpg.title.accepted=§eQuest Accepted!
+mini_rpg.title.completed=§aQuest Complete!
+mini_rpg.title.level_up=§6Level Up!
+mini_rpg.title.level=Level %s
+mini_rpg.hud.progress=%s: %s/%s
+
+## Rewards
+mini_rpg.reward.xp=§b+%s XP§r
+mini_rpg.reward.coins=§6+%s Coins§r
+mini_rpg.reward.item=§a+%s %s§r
+
+## Quest Journal (level: %s = level, XP into level, XP for next)
+mini_rpg.journal.title=Quest Journal
+mini_rpg.journal.level=§6Level %s§r  (%s/%s XP)
+mini_rpg.journal.coins=Coins: §6%s§r
+mini_rpg.journal.active=§lActive quest§r
+mini_rpg.journal.completed=§lCompleted quests§r
+mini_rpg.journal.none=§7None§r
+mini_rpg.journal.close=Close
+
+## Shop (item: %s = amount, item name, price)
+mini_rpg.shop.title=Bram's Shop
+mini_rpg.shop.body=You have §6%s coins§r. What would you like to buy?
+mini_rpg.shop.item=%sx %s\n§6%s coins
+mini_rpg.shop.close=Leave
+mini_rpg.shop.bought=§a[Shop]§r Bought %sx %s. Coins left: %s
+mini_rpg.shop.too_expensive=§c[Shop]§r Not enough coins. That costs %s.
+
+## Quest Reset Book menu
+mini_rpg.reset.title=Reset Quest
+mini_rpg.reset.body=Choose what to reset.
+mini_rpg.reset.profile=Reset XP & Coins\n§7Level %s, %s XP, %s coins
+mini_rpg.reset.cancel=Cancel
+mini_rpg.status.active=§2Active
+mini_rpg.status.ready=§6Ready to report
+mini_rpg.status.completed=§8Completed
+
+## Dialogue: shared
+mini_rpg.dialogue.accept=Accept
+mini_rpg.dialogue.report=Report
+mini_rpg.dialogue.leave=Leave
+mini_rpg.dialogue.quest_offer=Quest: %s
+mini_rpg.dialogue.progress_hint=Your progress is shown above your hotbar.
+mini_rpg.dialogue.busy=§cFinish your current quest first.§r
+
+## Dialogue: npc1 (Ardan)
+mini_rpg.dialogue.npc1.greeting=Greetings, traveler. I am Ardan, guard of this village.
+mini_rpg.dialogue.npc1.intro=More zombies come every night. Will you help me?
+mini_rpg.dialogue.npc1.ready=You took care of those zombies? Tell me everything.
+mini_rpg.dialogue.npc1.thanks=Thank you for clearing out those zombies. The village is safer because of you.
+
+## Dialogue: npc2 (Mira)
+mini_rpg.dialogue.npc2.greeting=Quiet, traveler. I'm Mira, I hunt these woods.
+mini_rpg.dialogue.npc2.intro=Skeletons have been shooting at anyone who walks near the forest. Can you thin them out?
+mini_rpg.dialogue.npc2.ready=Back already? Did you deal with those skeletons?
+mini_rpg.dialogue.npc2.bones_intro=Nice work with those skeletons. Their bones make the best arrow glue. Bring me some?
+mini_rpg.dialogue.npc2.bones_ready=That's a fine pile of bones. Hand them over?
+mini_rpg.dialogue.npc2.thanks=The forest is quiet again, and my quiver is full. Good hunting, friend.

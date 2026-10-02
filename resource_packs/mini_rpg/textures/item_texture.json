@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "mini_rpg",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "mini_rpg:quest_reset": { "textures": "textures/items/book_writable" },
+    "mini_rpg:quest_journal": { "textures": "textures/items/book_written" }
+  }
+}

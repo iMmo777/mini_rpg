@@ -1,0 +1,107 @@
+{
+  "format_version": "1.17",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "mini_rpg_npc1_intro",
+        "npc_name": "Ardan the Guard",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.dialogue.npc1.greeting" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.dialogue.npc1.intro" },
+            { "text": "\n\n" },
+            {
+              "translate": "mini_rpg.dialogue.quest_offer",
+              "with": { "rawtext": [{ "translate": "mini_rpg.quest.zombie_hunt.title" }] }
+            },
+            { "text": "\n" },
+            { "translate": "mini_rpg.quest.zombie_hunt.description" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.accept" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 accept zombie_hunt"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc1_progress",
+        "npc_name": "Ardan the Guard",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.quest.zombie_hunt.title" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.quest.zombie_hunt.description" },
+            { "text": " " },
+            { "translate": "mini_rpg.dialogue.progress_hint" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc1_ready",
+        "npc_name": "Ardan the Guard",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"],
+        "text": { "rawtext": [{ "translate": "mini_rpg.dialogue.npc1.ready" }] },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.report" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 report zombie_hunt"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc1_busy",
+        "npc_name": "Ardan the Guard",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.dialogue.npc1.greeting" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.dialogue.busy" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc1_thanks",
+        "npc_name": "Ardan the Guard",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"],
+        "text": { "rawtext": [{ "translate": "mini_rpg.dialogue.npc1.thanks" }] },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc1 close"]
+          }
+        ]
+      }
+    ]
+  }
+}

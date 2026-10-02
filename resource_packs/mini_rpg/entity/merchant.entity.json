@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mini_rpg:merchant",
+      "materials": { "default": "wandering_trader" },
+      "textures": { "default": "textures/entity/wandering_trader" },
+      "geometry": { "default": "geometry.villager_v2" },
+      "scripts": { "scale": "0.9375" },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" }
+      ],
+      "render_controllers": ["controller.render.wandering_trader"],
+      "spawn_egg": { "base_color": "#d9a43b", "overlay_color": "#5b3a1a" }
+    }
+  }
+}

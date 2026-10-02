@@ -1,0 +1,173 @@
+{
+  "format_version": "1.17",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "mini_rpg_npc2_intro",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.dialogue.npc2.greeting" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.dialogue.npc2.intro" },
+            { "text": "\n\n" },
+            {
+              "translate": "mini_rpg.dialogue.quest_offer",
+              "with": { "rawtext": [{ "translate": "mini_rpg.quest.skeleton_patrol.title" }] }
+            },
+            { "text": "\n" },
+            { "translate": "mini_rpg.quest.skeleton_patrol.description" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.accept" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 accept skeleton_patrol"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_progress",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.quest.skeleton_patrol.title" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.quest.skeleton_patrol.description" },
+            { "text": " " },
+            { "translate": "mini_rpg.dialogue.progress_hint" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_ready",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": { "rawtext": [{ "translate": "mini_rpg.dialogue.npc2.ready" }] },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.report" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 report skeleton_patrol"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_bones_intro",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.dialogue.npc2.bones_intro" },
+            { "text": "\n\n" },
+            {
+              "translate": "mini_rpg.dialogue.quest_offer",
+              "with": { "rawtext": [{ "translate": "mini_rpg.quest.bone_collector.title" }] }
+            },
+            { "text": "\n" },
+            { "translate": "mini_rpg.quest.bone_collector.description" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.accept" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 accept bone_collector"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_bones_progress",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.quest.bone_collector.title" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.quest.bone_collector.description" },
+            { "text": " " },
+            { "translate": "mini_rpg.dialogue.progress_hint" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_bones_ready",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": { "rawtext": [{ "translate": "mini_rpg.dialogue.npc2.bones_ready" }] },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.report" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 report bone_collector"]
+          },
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_busy",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": {
+          "rawtext": [
+            { "translate": "mini_rpg.dialogue.npc2.greeting" },
+            { "text": "\n\n" },
+            { "translate": "mini_rpg.dialogue.busy" }
+          ]
+        },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "mini_rpg_npc2_thanks",
+        "npc_name": "Mira the Hunter",
+        "on_open_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 open"],
+        "on_close_commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"],
+        "text": { "rawtext": [{ "translate": "mini_rpg.dialogue.npc2.thanks" }] },
+        "buttons": [
+          {
+            "name": { "rawtext": [{ "translate": "mini_rpg.dialogue.leave" }] },
+            "commands": ["/scriptevent mini_rpg:dialogue mini_rpg:npc2 close"]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mini_rpg:npc1",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/steve" },
+      "geometry": { "default": "geometry.humanoid.custom" },
+      "animations": { "look_at_target": "animation.common.look_at_target" },
+      "scripts": { "animate": ["look_at_target"] },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#3b6e2f", "overlay_color": "#d9b45a" }
+    }
+  }
+}

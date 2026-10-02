@@ -1,0 +1,88 @@
+pack.name=Mini RPG RP
+pack.description=Resource pack Mini RPG
+
+## Entities and items
+entity.mini_rpg:npc1.name=Ardan the Guard
+item.spawn_egg.entity.mini_rpg:npc1.name=Spawn Ardan the Guard
+entity.mini_rpg:npc2.name=Mira the Hunter
+item.spawn_egg.entity.mini_rpg:npc2.name=Spawn Mira the Hunter
+entity.mini_rpg:merchant.name=Bram the Merchant
+item.spawn_egg.entity.mini_rpg:merchant.name=Spawn Bram the Merchant
+item.mini_rpg:quest_journal.name=Jurnal Quest
+item.mini_rpg:quest_reset.name=Buku Reset Quest
+action.interact.mini_rpg.trade=Berdagang
+
+## Quests
+mini_rpg.quest.zombie_hunt.title=Pemburu Zombie
+mini_rpg.quest.zombie_hunt.description=Bunuh 5 zombie yang berkeliaran di sekitar desa.
+mini_rpg.quest.skeleton_patrol.title=Patroli Skeleton
+mini_rpg.quest.skeleton_patrol.description=Bunuh 3 skeleton yang berkeliaran di dekat hutan.
+mini_rpg.quest.bone_collector.title=Pengumpul Tulang
+mini_rpg.quest.bone_collector.description=Bawakan 6 tulang untuk anak panah Mira.
+
+## Chat messages (%s = quest title, then description / NPC name / rewards)
+mini_rpg.msg.accepted=§e[Quest]§r %s diterima: %s
+mini_rpg.msg.ready=§e[Quest]§r %s: Objektif selesai! Laporkan ke %s.
+mini_rpg.msg.completed=§a[Quest]§r %s: Quest selesai! Hadiah: %s
+mini_rpg.msg.reset=§e[Quest]§r %s telah direset.
+mini_rpg.msg.profile_reset=§e[Quest]§r XP dan koin telah direset.
+
+## Titles and actionbar
+mini_rpg.title.accepted=§eQuest Diterima!
+mini_rpg.title.completed=§aQuest Selesai!
+mini_rpg.title.level_up=§6Naik Level!
+mini_rpg.title.level=Level %s
+mini_rpg.hud.progress=%s: %s/%s
+
+## Rewards
+mini_rpg.reward.xp=§b+%s XP§r
+mini_rpg.reward.coins=§6+%s Koin§r
+mini_rpg.reward.item=§a+%s %s§r
+
+## Quest Journal (level: %s = level, XP into level, XP for next)
+mini_rpg.journal.title=Jurnal Quest
+mini_rpg.journal.level=§6Level %s§r  (%s/%s XP)
+mini_rpg.journal.coins=Koin: §6%s§r
+mini_rpg.journal.active=§lQuest aktif§r
+mini_rpg.journal.completed=§lQuest selesai§r
+mini_rpg.journal.none=§7Tidak ada§r
+mini_rpg.journal.close=Tutup
+
+## Shop (item: %s = amount, item name, price)
+mini_rpg.shop.title=Toko Bram
+mini_rpg.shop.body=Kamu punya §6%s koin§r. Mau beli apa?
+mini_rpg.shop.item=%sx %s\n§6%s koin
+mini_rpg.shop.close=Pergi
+mini_rpg.shop.bought=§a[Toko]§r Membeli %sx %s. Sisa koin: %s
+mini_rpg.shop.too_expensive=§c[Toko]§r Koin tidak cukup. Harganya %s.
+
+## Quest Reset Book menu
+mini_rpg.reset.title=Reset Quest
+mini_rpg.reset.body=Pilih yang ingin direset.
+mini_rpg.reset.profile=Reset XP & Koin\n§7Level %s, %s XP, %s koin
+mini_rpg.reset.cancel=Batal
+mini_rpg.status.active=§2Aktif
+mini_rpg.status.ready=§6Siap dilaporkan
+mini_rpg.status.completed=§8Selesai
+
+## Dialogue: shared
+mini_rpg.dialogue.accept=Terima
+mini_rpg.dialogue.report=Lapor
+mini_rpg.dialogue.leave=Pergi
+mini_rpg.dialogue.quest_offer=Quest: %s
+mini_rpg.dialogue.progress_hint=Progresmu ditampilkan di atas hotbar.
+mini_rpg.dialogue.busy=§cSelesaikan dulu quest-mu yang sedang berjalan.§r
+
+## Dialogue: npc1 (Ardan)
+mini_rpg.dialogue.npc1.greeting=Salam, pengembara. Aku Ardan, penjaga desa ini.
+mini_rpg.dialogue.npc1.intro=Setiap malam zombie makin banyak yang datang. Maukah kau membantuku?
+mini_rpg.dialogue.npc1.ready=Kau sudah membereskan zombie-zombie itu? Ceritakan padaku.
+mini_rpg.dialogue.npc1.thanks=Terima kasih sudah membersihkan zombie-zombie itu. Desa ini lebih aman berkatmu.
+
+## Dialogue: npc2 (Mira)
+mini_rpg.dialogue.npc2.greeting=Pelan-pelan, pengembara. Aku Mira, pemburu di hutan ini.
+mini_rpg.dialogue.npc2.intro=Skeleton terus memanah siapa pun yang lewat dekat hutan. Bisa bantu kurangi jumlah mereka?
+mini_rpg.dialogue.npc2.ready=Sudah kembali? Skeleton-skeleton itu sudah kau bereskan?
+mini_rpg.dialogue.npc2.bones_intro=Kerja bagus dengan skeleton itu. Tulang mereka bahan lem anak panah terbaik. Mau bawakan untukku?
+mini_rpg.dialogue.npc2.bones_ready=Tumpukan tulang yang bagus. Serahkan padaku?
+mini_rpg.dialogue.npc2.thanks=Hutan sudah tenang, dan tabung panahku penuh. Selamat berburu, kawan.

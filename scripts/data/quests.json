@@ -1,0 +1,20 @@
+{
+  "zombie_hunt": {
+    "titleKey": "mini_rpg.quest.zombie_hunt.title",
+    "descriptionKey": "mini_rpg.quest.zombie_hunt.description",
+    "objective": { "type": "kill", "target": "minecraft:zombie", "count": 5 },
+    "reward": { "xp": 60, "coins": 25, "items": [{ "itemType": "minecraft:emerald", "amount": 5 }] }
+  },
+  "skeleton_patrol": {
+    "titleKey": "mini_rpg.quest.skeleton_patrol.title",
+    "descriptionKey": "mini_rpg.quest.skeleton_patrol.description",
+    "objective": { "type": "kill", "target": "minecraft:skeleton", "count": 3 },
+    "reward": { "xp": 50, "coins": 20, "items": [{ "itemType": "minecraft:emerald", "amount": 3 }] }
+  },
+  "bone_collector": {
+    "titleKey": "mini_rpg.quest.bone_collector.title",
+    "descriptionKey": "mini_rpg.quest.bone_collector.description",
+    "objective": { "type": "collect", "item": "minecraft:bone", "count": 6 },
+    "reward": { "xp": 80, "coins": 40, "items": [] }
+  }
+}
